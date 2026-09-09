@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated_at": "2026-09-09T13:00:00+08:00",
-    "updated_by": "human",
-    "version": 1
+    "updated_at": "2026-09-09T14:40:00+08:00",
+    "updated_by": "market-agent",
+    "version": 2
   },
   "strategy": {
     "target_market": null,
@@ -13,10 +13,21 @@
     "risk_appetite": "light"
   },
   "market": {
-    "candidates": [],
-    "scores": {},
+    "candidates": [
+      { "id": 1, "market": "美国", "platform": "Etsy", "model": "数字下载", "category": "模板/printable", "score": 82, "verdict": "副线，仅在有设计能力时做" },
+      { "id": 2, "market": "美国", "platform": "TikTok Shop", "model": "全托管", "category": "家居小件/日用", "score": 81, "verdict": "推荐主力" },
+      { "id": 3, "market": "东南亚", "platform": "TikTok Shop", "model": "POP自运营", "category": "小件日用", "score": 77, "verdict": "第一备选" }
+    ],
+    "scores": {
+      "dimensions": ["启动资金门槛20", "现金回收速度15", "毛利空间15", "竞争密度15", "流量获取难度10", "供应链可得性10", "合规与封号风险10", "团队能力匹配5"],
+      "rejected": ["国内直发小包37", "Amazon小批量FBA49", "拉美MercadoLibre50", "Temu半托管51", "欧盟本地托管55"]
+    },
     "selected": null,
-    "trend_signals": []
+    "trend_signals": [
+      "de minimis 全球取消（中国/香港 2025-05-02，全球 2025-08-29）；T86 通道 2026-05-02 永久关闭；2026-06-24 成联邦法规",
+      "欧盟 €150 免税 2026-07-01 取消，改为每件 €3 固定关税 + VAT，2026-11 起加手续费",
+      "结论：国内直发小包模式失效，轻资产只剩平台托管 / 本地履约 / 零实物三条路"
+    ]
   },
   "competitor": { "tracked": [], "price_bands": [], "alerts": [] },
   "product": { "candidates": [], "shortlist": [], "costs": {}, "suppliers": [] },
@@ -26,6 +37,15 @@
   "customer": { "reviews": [], "return_reasons": [], "tickets": [], "repeat_rate": null },
   "finance": { "unit_profit": {}, "cash_flow": [], "payback_days": {} },
   "events": [],
-  "approvals": [],
+  "approvals": [
+    {
+      "id": "APV-001",
+      "created_at": "2026-09-09",
+      "type": "C",
+      "title": "拍板市场/平台/品类组合",
+      "status": "pending",
+      "ref": "data/output/phase0/2026-09-09-market-selection-report.md"
+    }
+  ],
   "decisions": []
 }
