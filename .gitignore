@@ -1,0 +1,25 @@
+# 敏感数据：成本、报价、后台数据原件不进仓库
+data/raw/*
+!data/raw/.gitkeep
+*报价*
+*成本表*
+.env
+*.key
+*.pem
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 依赖
+node_modules/
+__pycache__/
+venv/
+.venv/
+
+# 临时文件
+*.tmp
+*.bak
+~$*.docx

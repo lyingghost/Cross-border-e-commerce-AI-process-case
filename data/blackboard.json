@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "updated_at": "2026-09-09T13:00:00+08:00",
+    "updated_by": "human",
+    "version": 1
+  },
+  "strategy": {
+    "target_market": null,
+    "platform": null,
+    "category": null,
+    "monthly_gmv_goal": null,
+    "cash_available": null,
+    "risk_appetite": "light"
+  },
+  "market": {
+    "candidates": [],
+    "scores": {},
+    "selected": null,
+    "trend_signals": []
+  },
+  "competitor": { "tracked": [], "price_bands": [], "alerts": [] },
+  "product": { "candidates": [], "shortlist": [], "costs": {}, "suppliers": [] },
+  "store": { "listings": [], "keywords": { "positive": [], "negative": [] }, "prices": {} },
+  "content": { "scripts": [], "assets": [], "creators": [] },
+  "ads": { "campaigns": [], "daily_budget": null, "acos": null, "tacos": null },
+  "customer": { "reviews": [], "return_reasons": [], "tickets": [], "repeat_rate": null },
+  "finance": { "unit_profit": {}, "cash_flow": [], "payback_days": {} },
+  "events": [],
+  "approvals": [],
+  "decisions": []
+}

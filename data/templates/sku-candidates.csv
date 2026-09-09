@@ -1,0 +1,3 @@
+﻿sku_id,name,source_url,supplier,unit_cost_cny,weight_g,dimensions_cm,sell_price,platform_fee_pct,fulfillment_cost,first_leg_cost,gross_margin_pct,net_profit_cny,net_margin_pct,first_batch_qty,first_batch_cost,score_margin,score_logistics,score_differentiation,score_demand,score_competition,score_supply,score_aftersale,score_content,weighted_score,status,notes
+SKU-001,,,,,,,,,,,,,,,,,,,,,,,,,candidate,
+SKU-002,,,,,,,,,,,,,,,,,,,,,,,,,candidate,
