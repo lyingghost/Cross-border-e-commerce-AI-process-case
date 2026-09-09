@@ -23,3 +23,6 @@ venv/
 *.tmp
 *.bak
 ~$*.docx
+
+# 本地工作区数据（记忆、脚本），不进仓库
+.workbuddy/
